@@ -1,0 +1,27 @@
+
+--------------MySQL Configuration--------------
+
+
+MySQL Workbench download(GUI) and MySQL server download
+
+MySQL server client(CLI) comes along with MySQL server download
+
+
+Navigate to /usr/local/mysql-8.0.32/bin path in command prompt
+
+Type ->  ./mysql --user=root -p
+
+mysql Command to select the database ->  use <db_name>
+
+To clear the screen in mysql cmd ->  \! clear
+
+mysql Command to delete all records from the mysql table ->  delete from <table_name>
+
+
+MySQL driver class name -  com.mysql.cj.jdbc.Driver
+
+
+MySQL Dialect -  org.hibernate.dialect.MySQL8Dialect
+
+
+spring.jpa.hibernate.ddl-auto = update

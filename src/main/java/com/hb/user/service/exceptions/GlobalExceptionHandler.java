@@ -17,7 +17,6 @@ public class GlobalExceptionHandler
         ApiResponse response = ApiResponse.builder().message(message).success(true).status(HttpStatus.NOT_FOUND).build();
 
         return new ResponseEntity<ApiResponse>(response, HttpStatus.NOT_FOUND);
-
     }
 
 }

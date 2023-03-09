@@ -30,4 +30,5 @@ public class User
     @Column(name="ABOUT")
     private String about;
 
+
 }

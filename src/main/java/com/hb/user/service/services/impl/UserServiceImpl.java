@@ -40,4 +40,5 @@ public class UserServiceImpl implements UserService
         return userRepository.findById(userId)
                              .orElseThrow(() -> new ResourceNotFoundException("User with given id is not found on the server " + "having userid as: " + userId));
     }
+
 }
